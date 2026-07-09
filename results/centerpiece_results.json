@@ -1,0 +1,399 @@
+{
+  "RESULTS": {
+    "CIFAR-10": {
+      "HF-Energy": {
+        "pristine_auroc": 0.9999,
+        "pristine_ci": [
+          0.9998,
+          1.0
+        ],
+        "hardneg_auroc": 0.8307,
+        "hardneg_ci": [
+          0.8113,
+          0.8499
+        ],
+        "delta_auc": -0.1692,
+        "tpr_pristine": {
+          "1%": 0.9987,
+          "5%": 0.9993,
+          "10%": 1.0
+        },
+        "tpr_operational": {
+          "1%": 0.3273,
+          "5%": 0.3273,
+          "10%": 0.3273
+        }
+      },
+      "DCT-HFE": {
+        "pristine_auroc": 0.9928,
+        "pristine_ci": [
+          0.9896,
+          0.9958
+        ],
+        "hardneg_auroc": 0.8253,
+        "hardneg_ci": [
+          0.8064,
+          0.8444
+        ],
+        "delta_auc": -0.1675,
+        "tpr_pristine": {
+          "1%": 0.9427,
+          "5%": 0.978,
+          "10%": 0.9813
+        },
+        "tpr_operational": {
+          "1%": 0.3313,
+          "5%": 0.332,
+          "10%": 0.332
+        }
+      },
+      "DFT-HFE": {
+        "pristine_auroc": 0.9192,
+        "pristine_ci": [
+          0.9066,
+          0.9316
+        ],
+        "hardneg_auroc": 0.7678,
+        "hardneg_ci": [
+          0.7493,
+          0.7865
+        ],
+        "delta_auc": -0.1514,
+        "tpr_pristine": {
+          "1%": 0.6953,
+          "5%": 0.7953,
+          "10%": 0.8373
+        },
+        "tpr_operational": {
+          "1%": 0.3247,
+          "5%": 0.3273,
+          "10%": 0.3307
+        }
+      },
+      "UPVR": {
+        "pristine_auroc": 0.5163,
+        "pristine_ci": [
+          0.4786,
+          0.5552
+        ],
+        "hardneg_auroc": 0.494,
+        "hardneg_ci": [
+          0.4694,
+          0.517
+        ],
+        "delta_auc": -0.0223,
+        "tpr_pristine": {
+          "1%": 0.0113,
+          "5%": 0.0307,
+          "10%": 0.0673
+        },
+        "tpr_operational": {
+          "1%": 0.01,
+          "5%": 0.0353,
+          "10%": 0.074
+        }
+      },
+      "O2": {
+        "pristine_auroc": 0.7971,
+        "pristine_ci": [
+          0.7731,
+          0.8195
+        ],
+        "hardneg_auroc": 0.7068,
+        "hardneg_ci": [
+          0.6869,
+          0.7271
+        ],
+        "delta_auc": -0.0903,
+        "tpr_pristine": {
+          "1%": 0.452,
+          "5%": 0.5387,
+          "10%": 0.6053
+        },
+        "tpr_operational": {
+          "1%": 0.1287,
+          "5%": 0.268,
+          "10%": 0.3553
+        }
+      },
+      "GaussianL1": {
+        "pristine_auroc": 0.7894,
+        "pristine_ci": [
+          0.7671,
+          0.8095
+        ],
+        "hardneg_auroc": 0.6642,
+        "hardneg_ci": [
+          0.6429,
+          0.687
+        ],
+        "delta_auc": -0.1252,
+        "tpr_pristine": {
+          "1%": 0.418,
+          "5%": 0.5753,
+          "10%": 0.6393
+        },
+        "tpr_operational": {
+          "1%": 0.0207,
+          "5%": 0.1113,
+          "10%": 0.218
+        }
+      },
+      "PredL1": {
+        "pristine_auroc": 0.9386,
+        "pristine_ci": [
+          0.9256,
+          0.9512
+        ],
+        "hardneg_auroc": 0.8927,
+        "hardneg_ci": [
+          0.8794,
+          0.905
+        ],
+        "delta_auc": -0.0459,
+        "tpr_pristine": {
+          "1%": 0.5387,
+          "5%": 0.8347,
+          "10%": 0.9007
+        },
+        "tpr_operational": {
+          "1%": 0.2567,
+          "5%": 0.5167,
+          "10%": 0.6847
+        }
+      }
+    },
+    "ImageNet": {
+      "HF-Energy": {
+        "pristine_auroc": 0.5552,
+        "pristine_ci": [
+          0.517,
+          0.5949
+        ],
+        "hardneg_auroc": 0.403,
+        "hardneg_ci": [
+          0.3803,
+          0.4245
+        ],
+        "delta_auc": -0.1522,
+        "tpr_pristine": {
+          "1%": 0.01,
+          "5%": 0.1033,
+          "10%": 0.1833
+        },
+        "tpr_operational": {
+          "1%": 0.0027,
+          "5%": 0.0533,
+          "10%": 0.1173
+        }
+      },
+      "DCT-HFE": {
+        "pristine_auroc": 0.4426,
+        "pristine_ci": [
+          0.4043,
+          0.4833
+        ],
+        "hardneg_auroc": 0.3781,
+        "hardneg_ci": [
+          0.3556,
+          0.4017
+        ],
+        "delta_auc": -0.0645,
+        "tpr_pristine": {
+          "1%": 0.006,
+          "5%": 0.0613,
+          "10%": 0.1087
+        },
+        "tpr_operational": {
+          "1%": 0.0053,
+          "5%": 0.062,
+          "10%": 0.0867
+        }
+      },
+      "DFT-HFE": {
+        "pristine_auroc": 0.4436,
+        "pristine_ci": [
+          0.4025,
+          0.486
+        ],
+        "hardneg_auroc": 0.3653,
+        "hardneg_ci": [
+          0.3437,
+          0.3879
+        ],
+        "delta_auc": -0.0783,
+        "tpr_pristine": {
+          "1%": 0.0027,
+          "5%": 0.0453,
+          "10%": 0.0853
+        },
+        "tpr_operational": {
+          "1%": 0.0033,
+          "5%": 0.038,
+          "10%": 0.0527
+        }
+      },
+      "UPVR": {
+        "pristine_auroc": 0.5677,
+        "pristine_ci": [
+          0.5262,
+          0.6065
+        ],
+        "hardneg_auroc": 0.5162,
+        "hardneg_ci": [
+          0.4937,
+          0.5394
+        ],
+        "delta_auc": -0.0515,
+        "tpr_pristine": {
+          "1%": 0.0093,
+          "5%": 0.0393,
+          "10%": 0.072
+        },
+        "tpr_operational": {
+          "1%": 0.0053,
+          "5%": 0.0373,
+          "10%": 0.066
+        }
+      },
+      "O2": {
+        "pristine_auroc": 0.7309,
+        "pristine_ci": [
+          0.7045,
+          0.7578
+        ],
+        "hardneg_auroc": 0.725,
+        "hardneg_ci": [
+          0.7048,
+          0.7438
+        ],
+        "delta_auc": -0.006,
+        "tpr_pristine": {
+          "1%": 0.348,
+          "5%": 0.4253,
+          "10%": 0.47
+        },
+        "tpr_operational": {
+          "1%": 0.3427,
+          "5%": 0.3953,
+          "10%": 0.4613
+        }
+      },
+      "GaussianL1": {
+        "pristine_auroc": 0.7605,
+        "pristine_ci": [
+          0.7374,
+          0.7847
+        ],
+        "hardneg_auroc": 0.7681,
+        "hardneg_ci": [
+          0.7503,
+          0.7875
+        ],
+        "delta_auc": 0.0076,
+        "tpr_pristine": {
+          "1%": 0.3687,
+          "5%": 0.5307,
+          "10%": 0.6013
+        },
+        "tpr_operational": {
+          "1%": 0.4093,
+          "5%": 0.57,
+          "10%": 0.6147
+        }
+      },
+      "PredL1": {
+        "pristine_auroc": 0.7552,
+        "pristine_ci": [
+          0.7312,
+          0.7792
+        ],
+        "hardneg_auroc": 0.7595,
+        "hardneg_ci": [
+          0.7414,
+          0.778
+        ],
+        "delta_auc": 0.0043,
+        "tpr_pristine": {
+          "1%": 0.3753,
+          "5%": 0.4907,
+          "10%": 0.5893
+        },
+        "tpr_operational": {
+          "1%": 0.4007,
+          "5%": 0.556,
+          "10%": 0.6087
+        }
+      }
+    }
+  },
+  "AXIS3": {
+    "1.0": {
+      "HF-Energy": 0.7799,
+      "DCT-HFE": 0.5007,
+      "DFT-HFE": 0.4567,
+      "UPVR": 0.5886,
+      "O2": 0.5378,
+      "GaussianL1": 0.5026,
+      "PredL1": 0.4872
+    },
+    "1.4": {
+      "HF-Energy": 0.9586,
+      "DCT-HFE": 0.7363,
+      "DFT-HFE": 0.5942,
+      "UPVR": 0.5303,
+      "O2": 0.5394,
+      "GaussianL1": 0.4753,
+      "PredL1": 0.4418
+    },
+    "2.0": {
+      "HF-Energy": 0.9889,
+      "DCT-HFE": 0.9841,
+      "DFT-HFE": 0.8212,
+      "UPVR": 0.5178,
+      "O2": 0.5183,
+      "GaussianL1": 0.413,
+      "PredL1": 0.3867
+    },
+    "3.5": {
+      "HF-Energy": 1.0,
+      "DCT-HFE": 1.0,
+      "DFT-HFE": 0.9969,
+      "UPVR": 0.5154,
+      "O2": 0.4572,
+      "GaussianL1": 0.5919,
+      "PredL1": 0.5714
+    },
+    "7.0": {
+      "HF-Energy": 1.0,
+      "DCT-HFE": 1.0,
+      "DFT-HFE": 1.0,
+      "UPVR": 0.5047,
+      "O2": 0.5292,
+      "GaussianL1": 0.9969,
+      "PredL1": 0.906
+    }
+  },
+  "natural_HF_energy": {
+    "1.0": 0.00781,
+    "1.4": 0.00564,
+    "2.0": 0.00426,
+    "3.5": 0.00218,
+    "7.0": 0.0008
+  },
+  "AXIS3_config": {
+    "RES_N": 500,
+    "RES_RATIOS": [
+      1.0,
+      1.4,
+      2.0,
+      3.5,
+      7.0
+    ],
+    "GLSIG": 1.0,
+    "seed": 42,
+    "scoring": "abs((f-mu_clean)/sd_clean)",
+    "attack": "FGSM eps=8/255",
+    "interp": "bicubic"
+  }
+}

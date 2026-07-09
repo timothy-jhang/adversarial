@@ -1,0 +1,71 @@
+{
+  "config": {
+    "RES_N": 500,
+    "RES_RATIOS": [
+      1.0,
+      1.4,
+      2.0,
+      3.5,
+      7.0
+    ],
+    "GLSIG": 1.0,
+    "seed": 42,
+    "scoring": "abs((f-mu_clean)/sd_clean)",
+    "attack": "FGSM eps=8/255",
+    "interp": "bicubic"
+  },
+  "AXIS3": {
+    "1.0": {
+      "HF-Energy": 0.7799,
+      "DCT-HFE": 0.5007,
+      "DFT-HFE": 0.4567,
+      "UPVR": 0.5886,
+      "O2": 0.5378,
+      "GaussianL1": 0.5026,
+      "PredL1": 0.4872
+    },
+    "1.4": {
+      "HF-Energy": 0.9586,
+      "DCT-HFE": 0.7363,
+      "DFT-HFE": 0.5942,
+      "UPVR": 0.5303,
+      "O2": 0.5394,
+      "GaussianL1": 0.4753,
+      "PredL1": 0.4418
+    },
+    "2.0": {
+      "HF-Energy": 0.9889,
+      "DCT-HFE": 0.9841,
+      "DFT-HFE": 0.8212,
+      "UPVR": 0.5178,
+      "O2": 0.5183,
+      "GaussianL1": 0.413,
+      "PredL1": 0.3867
+    },
+    "3.5": {
+      "HF-Energy": 1.0,
+      "DCT-HFE": 1.0,
+      "DFT-HFE": 0.9969,
+      "UPVR": 0.5154,
+      "O2": 0.4572,
+      "GaussianL1": 0.5919,
+      "PredL1": 0.5714
+    },
+    "7.0": {
+      "HF-Energy": 1.0,
+      "DCT-HFE": 1.0,
+      "DFT-HFE": 1.0,
+      "UPVR": 0.5047,
+      "O2": 0.5292,
+      "GaussianL1": 0.9969,
+      "PredL1": 0.906
+    }
+  },
+  "natural_HF_energy": {
+    "1.0": 0.00781,
+    "1.4": 0.00564,
+    "2.0": 0.00426,
+    "3.5": 0.00218,
+    "7.0": 0.0008
+  }
+}
